@@ -18,3 +18,5 @@ def power_r(a, b):
     else:
         return 1 / (a * power_r(a, -b - 1)) # O(n)
   
+
+# -> O(n)
